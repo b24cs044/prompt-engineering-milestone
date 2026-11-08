@@ -781,3 +781,5 @@ Few-shot prompting took sentiment accuracy from 92.86% to 100%, but that was one
 ## 9. Evidence
 
 evidence/settings-zero-shot.png is a screenshot of the run settings (model gemini-3.8-flash, thinking level Medium, all tools off) taken in the zero-shot chat. It also shows part of the model's thinking summary, where it goes back and forth on review 11 before settling on negative, which matches the zero-shot output above.
+
+To repeat the experiments, open AI Studio, select the same model and thinking level, paste each prompt as written in a fresh chat, and compare with the expected values above. For Strategy D, turn on Structured outputs and set an array of objects with name (STRING), date (STRING) and amount (NUMBER).
